@@ -1,5 +1,5 @@
 # Excel Personal Budget Project
-This project showcases how the power of Excel can be leveraged for a personal budget. Using tables, visualizations, formulae (like SUMIF and VLOOKUP), sliders, dropdowns, and pivot tables with slicers, a user can get high level or detailed overviews of their finances.
+This project showcases how the power of Excel can be leveraged for a personal budget. Using tables, visualizations, formulae (like SUMIF and VLOOKUP), sliders, dropdowns, VBA macros, and pivot tables with slicers, a user can get high level or detailed overviews of their finances.
 
 Below is a description of what each sheet in the workbook contains.
 
@@ -34,7 +34,7 @@ This sheet contains the full list of the user's transactions.
 
 ## Other Sheets
 The final 4 sheets contain various intermediate steps to generate the other aspects of the workbook.
-* Raw Data: the user can paste in the raw transaction data from their financial institution and use a macro to format it to match the Transaction History table.
+* Raw Data: the user can paste in the raw transaction data from their financial institution and use a VBA macro to format it to match the Transaction History table.
 * Chart Data: contains the data for the Expenses by Category chart in the Summary sheet. It uses SUMIFS functions to calculate the amount spent in each category.
 * Behind the Scences: contains the validation list and scaling cells tied to the dropdown and sliders in the Savings Calculator sheet.
 * Lookup Table: contains the lookup table for the VLOOKUP formula in the Transaction History sheet.
